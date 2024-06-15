@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu desplegable</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">MisteryPach.</h1>
+
+            <ul class="menu__links">
+            <li class="menu__item">
+                    <a href="index.html" class="menu__link">Inicio</a>
+                </li>
+
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">Interacción <img src="assets/arrow.svg" class="menu__arrow"></a>
+    
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="Chat_privado.php" class="menu__link menu__link--inside">Chat privado</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="Chat_grupales.php" class="menu__link menu__link--inside">Chat grupales</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="Video_llamada.php" class="menu__link menu__link--inside">Video llamada</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="Reunión_grupal.php" class="menu__link menu__link--inside">Reunión grupal</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">Contactos <img src="assets/arrow.svg" class="menu__arrow"></a>
+    
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="Amigos.php" class="menu__link menu__link--inside">Amigos</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="Empresa.php" class="menu__link menu__link--inside">Empresa</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">Cuenta <img src="assets/arrow.svg" class="menu__arrow"></a>
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="Perfil.php" class="menu__link menu__link--inside">Ver Perfil</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="Configuración.php" class="menu__link menu__link--inside">Configuración</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="Cuenta/Iniciar_sección.php" class="menu__link menu__link--inside">Agregar cuenta</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="Cuenta/Serrar_sección.php" class="menu__link menu__link--inside">Serrar sección</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="menu__hamburguer">
+                <img src="assets/menu.svg" class="menu__img">
+            </div>
+        </section>
+    </nav>
+    <script src="js/app.js"></script>
+    Chat privado
+</body>
+</html>
